@@ -13,4 +13,67 @@ body, h1 {
     max-width: 405px;
     margin: 0 auto;
     padding: 68px 85px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 40px;
+    color: #eee;
+    font-family: Verdana;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.board-score {
+    width: 155px;
+    /* padding: 10px 10px; */
+    padding-top: 15px;
+    text-align: center;
+    color: #F94F6D;
+    background-color: #080001;
+    height: 100px;
+    font-size: 90px;
+    border-radius: 3px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-btns {
+    display: flex;
+    margin-top: 35px;
+}
+
+.btn {
+    width: 30px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-weight: 400;
+
+    padding: 6px 3px 3px;
+    margin: 0 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: #9AABD8;
+    color: #080001;
 }
