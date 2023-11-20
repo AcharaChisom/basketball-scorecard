@@ -77,3 +77,25 @@ h1 {
     background-color: #9AABD8;
     color: #080001;
 }
+
+.reset {
+    display: flex;
+    justify-content: center;
+}
+
+#reset-btn {
+    /* display: inline-block; */
+    margin: 0 auto;
+    background: #1B244A;
+    color: #eee;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+
+    font-size: 30px;
+    color: #eee;
+    font-family: Verdana;
+    font-weight: 700;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
