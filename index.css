@@ -1,0 +1,16 @@
+@font-face {
+    font-family: cursed-timer;
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+body, h1 {
+    margin: 0;
+    font-family: cursed-timer;
+}
+
+.scoreboard {
+    background: #1B244A;
+    max-width: 405px;
+    margin: 0 auto;
+    padding: 68px 85px;
+}
